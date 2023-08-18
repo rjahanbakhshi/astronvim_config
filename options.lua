@@ -2,11 +2,13 @@
 return {
   opt = {
     -- set to true or false etc.
-    relativenumber = true, -- sets vim.opt.relativenumber
+    relativenumber = false, -- sets vim.opt.relativenumber
     number = true, -- sets vim.opt.number
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
+    colorcolumn = "80", -- highlights 80th column vim.opt.colorcolumn
+    hlsearch = true, -- highlight search vim.opt.hlsearch
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
