@@ -81,5 +81,6 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
+    require('telescope').load_extension('neoclip')
   end,
 }
