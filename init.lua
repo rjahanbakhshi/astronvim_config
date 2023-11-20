@@ -89,5 +89,6 @@ return {
     --   },
     -- }
     require('telescope').load_extension('neoclip')
+    vim.on_key(function() end, vim.api.nvim_get_namespaces()["auto_hlsearch"])
   end,
 }
